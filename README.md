@@ -1,7 +1,7 @@
 vimrc
 =====
 
-just another vim setup
+Just another vim setup, mostly focused on Python.
 
 Installation
 ------------
@@ -12,7 +12,7 @@ Installation
 
 2. Symlink `~/.vimrc` to `~/.vim/.vimrc` with
 
-        ln -s ~/.vimrc ~/.vim/.vimrc
+        ln -s ~/.vim/.vimrc ~/.vimrc
 
 Special bindings (normal mode)
 ------------------------------
