@@ -39,3 +39,10 @@ Credits
 
 The `indent/python.vim` file in this repo was found at http://www.vim.org/scripts/script.php?script_id=974, a vim script maintained by Eric Mc Sween and originally written by David Bustos. 
 
+Caveats
+-------
+
+The Python features (autocomplete, syntax checking, etc.) should work with whatever
+Python virtual environment is active when vim was launched, assuming that vim was
+built against the same general version of Python as your virtualenv.
+
