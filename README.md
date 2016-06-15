@@ -24,6 +24,8 @@ Special bindings (normal mode)
 | Shift+C  | check syntax        |
 | Shift+R  | clear syntax markup |
 
+Plus all the default bindings from [jedi-vim](https://github.com/davidhalter/jedi-vim) and [vim-unimpaired](https://github.com/tpope/vim-unimpaired).
+
 Features
 --------
 
