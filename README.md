@@ -23,7 +23,7 @@ Installation
  
    with
 
-        git clone git://github.com/davidhalter/jedi-vim.git ~/.vim/bundle/jedi-vim
+        git clone --recursive git://github.com/davidhalter/jedi-vim.git ~/.vim/bundle/jedi-vim
         git clone git://github.com/ervandew/supertab.git ~/.vim/bundle/supertab
         git clone git://github.com/scrooloose/syntastic.git ~/.vim/bundle/syntastic
         git clone git://github.com/tpope/vim-unimpaired.git ~/.vim/bundle/vim-unimpaired
@@ -41,6 +41,7 @@ Special bindings (normal mode)
 Features
 --------
 
+- Uses [pathogen](https://github.com/tpope/vim-pathogen) to inject other plugins
 - Uses [jedi-vim](https://github.com/davidhalter/jedi-vim) for Python autocompletion
 - Uses [supertab](https://github.com/ervandew/supertab) to control autocompletion with Tab
 - Uses [syntastic](https://github.com/scrooloose/syntastic) to hook into `pylint` for syntax and style checking (make sure you have `pylint` installed)
