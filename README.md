@@ -47,3 +47,8 @@ Features
 - Uses [vim-unimpaired](https://github.com/tpope/vim-unimpaired) to supply a bunch of useful mappings
 - Uses `~/.vim/indent` and `~/.vim/ftplugin` to set up auto-indentation for Python
 
+Credits
+-------
+
+The `indent/python.vim` file in this repo was found at http://www.vim.org/scripts/script.php?script_id=974, a vim script maintained by Eric Mc Sween and originally written by David Bustos. 
+
