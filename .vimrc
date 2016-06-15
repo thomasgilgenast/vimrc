@@ -1,4 +1,5 @@
 "pathogen
+runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 
 "basic configuration
@@ -16,6 +17,7 @@ nnoremap <S-n> :set nu!<CR>
 "let supertab take over autocomplete from jedi
 let g:SuperTabDefaultCompletionType = "context"
 let g:jedi#popup_on_dot = 0
+autocmd CompleteDone * pclose
 
 "syntastic
 set statusline+=%#warningmsg#

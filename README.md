@@ -8,25 +8,11 @@ Installation
 
 1. Clone this repository to `~/.vim` with
 
-        git clone git://github.com/thomasgilgenast/vimrc.git ~/.vim
+        git clone --recursive git://github.com/thomasgilgenast/vimrc.git ~/.vim
 
-2. Install [pathogen](https://github.com/tpope/vim-pathogen) to `~/.vim/autoload/pathogen.vim` with
+2. Symlink `~/.vimrc` to `~/.vim/.vimrc` with
 
-        mkdir -p ~/.vim/autoload ~/.vim/bundle && \
-        curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
-
-3. Install the following plugins to `~/.vim/bundle`:
-   - [jedi-vim](https://github.com/davidhalter/jedi-vim)
-   - [supertab](https://github.com/ervandew/supertab)
-   - [syntastic](https://github.com/scrooloose/syntastic)
-   - [vim-unimpaired](https://github.com/tpope/vim-unimpaired)
- 
-   with
-
-        git clone --recursive git://github.com/davidhalter/jedi-vim.git ~/.vim/bundle/jedi-vim
-        git clone git://github.com/ervandew/supertab.git ~/.vim/bundle/supertab
-        git clone git://github.com/scrooloose/syntastic.git ~/.vim/bundle/syntastic
-        git clone git://github.com/tpope/vim-unimpaired.git ~/.vim/bundle/vim-unimpaired
+        ln -s ~/.vimrc ~/.vim/.vimrc
 
 Special bindings (normal mode)
 ------------------------------
