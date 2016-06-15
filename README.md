@@ -17,12 +17,12 @@ Installation
 Special bindings (normal mode)
 ------------------------------
 
-| Shortcut | Action              |
-|----------|---------------------|
-| Shift+P  | toggle paste mode   |
-| Shift+N  | toggle line numbers |
-| Shift+C  | check syntax        |
-| Shift+R  | clear syntax markup |
+| Shortcut | Action                           |
+|----------|----------------------------------|
+| Shift+P  | toggle paste mode                |
+| Shift+N  | toggle line numbers              |
+| Shift+C  | write to disk, then check syntax |
+| Shift+R  | clear syntax markup              |
 
 Plus all the default bindings from [jedi-vim](https://github.com/davidhalter/jedi-vim) and [vim-unimpaired](https://github.com/tpope/vim-unimpaired).
 

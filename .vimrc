@@ -23,9 +23,12 @@ autocmd CompleteDone * pclose
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
-let g:syntastic_check_on_wq = 0
+let g:syntastic_mode_map = {
+    \ "mode": "passive",
+    \ "active_filetypes": [],
+    \ "passive_filetypes": [] }
 let g:syntastic_aggregate_errors = 1
 let g:syntastic_id_checkers = 0
-nnoremap <S-c> :SyntasticCheck<CR>
+nnoremap <S-c> :w<CR>:SyntasticCheck<CR>
 nnoremap <S-r> :SyntasticReset<CR>
 
