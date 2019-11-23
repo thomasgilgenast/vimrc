@@ -6,13 +6,9 @@ Just another vim setup, mostly focused on Python.
 Installation
 ------------
 
-1. Clone this repository to `~/.vim` with
+Clone this repository to `~/.vim` with
 
-        git clone --recursive git://github.com/thomasgilgenast/vimrc.git ~/.vim
-
-2. Symlink `~/.vimrc` to `~/.vim/.vimrc` with
-
-        ln -s ~/.vim/.vimrc ~/.vimrc
+    git clone --recursive git://github.com/thomasgilgenast/vimrc.git ~/.vim
 
 Special bindings (normal mode)
 ------------------------------
