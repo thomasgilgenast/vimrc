@@ -24,22 +24,29 @@ Special bindings (normal mode)
 | Shift+C  | write to disk, then check syntax |
 | Shift+R  | clear syntax markup              |
 
-Plus all the default bindings from [jedi-vim](https://github.com/davidhalter/jedi-vim) and [vim-unimpaired](https://github.com/tpope/vim-unimpaired).
+Plus all the default bindings from [jedi-vim](https://github.com/davidhalter/jedi-vim)
+and [vim-unimpaired](https://github.com/tpope/vim-unimpaired).
 
 Features
 --------
 
 - Uses [pathogen](https://github.com/tpope/vim-pathogen) to inject other plugins
-- Uses [jedi-vim](https://github.com/davidhalter/jedi-vim) for Python autocompletion
-- Uses [supertab](https://github.com/ervandew/supertab) to control autocompletion with Tab
-- Uses [syntastic](https://github.com/scrooloose/syntastic) to hook into `pylint` for syntax and style checking (make sure you have `pylint` installed)
-- Uses [vim-unimpaired](https://github.com/tpope/vim-unimpaired) to supply a bunch of useful mappings
+- Uses [jedi-vim](https://github.com/davidhalter/jedi-vim) for Python
+  autocompletion
+- Uses [supertab](https://github.com/ervandew/supertab) to control
+  autocompletion with Tab
+- Uses [syntastic](https://github.com/scrooloose/syntastic) to hook into
+  `pylint` for syntax and style checking (make sure you have `pylint` installed)
+- Uses [vim-unimpaired](https://github.com/tpope/vim-unimpaired) to supply a
+  bunch of useful mappings
 - Uses `~/.vim/indent` and `~/.vim/ftplugin` to set up auto-indentation for Python
+- Uses [iceberg.vim](https://github.com/cocopon/iceberg.vim) as the default color scheme
 
 Credits
 -------
 
-The `indent/python.vim` file in this repo was found at http://www.vim.org/scripts/script.php?script_id=974, a vim script maintained by Eric Mc Sween and originally written by David Bustos. 
+The `indent/python.vim` file in this repo was found at http://www.vim.org/scripts/script.php?script_id=974,
+a vim script maintained by Eric Mc Sween and originally written by David Bustos. 
 
 Caveats
 -------

@@ -5,6 +5,8 @@ execute pathogen#infect()
 "basic configuration
 "syntax highlighting
 syntax on
+"colorscheme
+colorscheme iceberg
 "turn on ftplugin and indent
 filetype plugin indent on
 "change backspace behavior
