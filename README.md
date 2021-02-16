@@ -41,8 +41,8 @@ Features
   bunch of useful mappings
 - Uses `~/.vim/indent` and `~/.vim/ftplugin` to set up auto-indentation for Python
 - Uses [iceberg.vim](https://github.com/cocopon/iceberg.vim) as the default color scheme
+- Uses [powerline](https://github.com/powerline/powerline) to provide a statusline
 - Disables background color erase
-- Attempts to enable powerline statusline
 
 Credits
 -------
