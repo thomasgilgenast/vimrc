@@ -34,3 +34,11 @@ let g:syntastic_id_checkers = 0
 nnoremap <S-c> :w<CR>:SyntasticCheck<CR>
 nnoremap <S-r> :SyntasticReset<CR>
 
+"disable background color erase
+set t_ut=
+
+"powerline
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
+
+"always show statusline
+set laststatus=2
