@@ -8,11 +8,11 @@ Installation
 
 1. Clone this repository to `~/.vim` with
 
-       git clone --recursive git://github.com/thomasgilgenast/vimrc.git ~/.vim	    git clone --recursive git://github.com/thomasgilgenast/vimrc.git ~/.vim
+       git clone --recursive git://github.com/thomasgilgenast/vimrc.git ~/.vim
 
-2. Symlink `~/.vimrc` to `~/.vim/.vimrc` with
+2. Symlink `~/.vimrc` to `~/.vim/vimrc` with
 
-       ln -s ~/.vim/.vimrc ~/.vimrc
+       ln -s ~/.vim/vimrc ~/.vimrc
 
 Special bindings (normal mode)
 ------------------------------
